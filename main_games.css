@@ -1,0 +1,95 @@
+* { margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family: Arial, sans-serif; }
+
+body { background: #0f0f0f;
+     color: white; }
+
+
+.img-nav {
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.nav-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background: #1a1a1a;
+}
+
+.logo { display: flex;
+     align-items: center;
+      gap: 10px; 
+}
+.nav-top ul { display: flex;
+     gap: 20px;
+      list-style: none; 
+}
+.nav-top a { color: #ccc;
+     text-decoration: none; 
+}
+.nav-top a:hover { color: #fff;
+}
+
+
+.hero {
+    background: linear-gradient(to right, #0f0f0f 30%, transparent), 
+    url('imagens/Mortal-Kombat-3.jpg');
+    background-size: cover;         
+    background-position: center;     
+    background-repeat: no-repeat;   
+    color: #fff;                  
+    height: 400px;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+
+.hero-text h2 { font-size: 48px;
+     margin-bottom: 10px; 
+}
+.hero-text p { color: #aaa;
+     margin-bottom: 20px;
+}
+.hero-text button {
+    background: #00a000;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+.games { padding: 30px 40px;
+}
+.grid { display: flex;
+    gap: 20px; 
+    margin-top: 20px; 
+    flex-wrap: wrap; 
+}
+
+.card {
+    width: 180px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.card img {
+    width: 100%;
+    border-radius: 12px;
+}
+.card span {
+    display: block;
+    margin-top: 8px;
+    font-size: 14px;
+}
+.card:hover {
+    transform: scale(1.05);
+}
